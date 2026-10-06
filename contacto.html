@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto y Registro - Saltillo Coahuila</title>
+</head>
+<body bgcolor="#FDFBF7" text="#222222">
+
+    <!-- ENCABEZADO -->
+    <header align="center">
+        <font face="Verdana" color="#A67B5B">
+            <h1>¡REGISTRO DE VISITANTES!</h1>
+            <h3>Déjanos tus datos y opiniones sobre tu experiencia en Saltillo</h3>
+        </font>
+        <hr size="4" color="#D69E2E" width="90%">
+    </header>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav align="center">
+        <font face="Verdana" size="4">
+            <b>
+                <a href="index.html" style="color:#8B5A2B;">Inicio</a> | 
+                <a href="comida.html" style="color:#D69E2E;">Comida Típica</a> | 
+                <a href="lugares.html" style="color:#1E4620;">Lugares Turísticos</a> | 
+                <a href="alrededores.html" style="color:#1E4620;">Alrededores</a> | 
+                <a href="contacto.html" style="color:#A67B5B;">Registro de Visitantes</a>
+            </b>
+        </font>
+        <hr size="2" color="#D69E2E" width="80%">
+    </nav>
+
+    <!-- CUERPO PRINCIPAL (Formulario) -->
+    <main>
+        <font face="Arial">
+            <section align="center">
+                <table align="center" border="3" bordercolor="#A67B5B" cellpadding="15" cellspacing="0" bgcolor="#FFFFFF" width="75%">
+                    <tr bgcolor="#A67B5B">
+                        <td align="center">
+                            <font color="#FFFFFF">
+                                <h2>Formulario de Registro para Visitantes</h2>
+                                <p>¡Cuéntanos tu experiencia visitando la cuna del sarape!</p>
+                            </font>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#FFFBF7">
+                        <td align="left">
+                            <form action="#" method="post">
+                                <p>
+                                    <label for="nombre"><b>Nombre completo:</b></label><br>
+                                    <input type="text" id="nombre" name="nombre" size="42" placeholder="Ej. Manuel Acuña Pérez" required>
+                                </p>
+
+                                <p>
+                                    <label for="correo"><b>Correo electrónico:</b></label><br>
+                                    <input type="email" id="correo" name="correo" size="42" placeholder="ejemplo@correo.com" required>
+                                </p>
+
+                                <p>
+                                    <label for="tipo_visita"><b>¿De dónde nos visitas / cuál es tu estatus?</b></label><br>
+                                    <select id="tipo_visita" name="tipo_visita">
+                                        <option value="saltillense">Soy Saltillense de corazón</option>
+                                        <option value="coahuilense">Vengo de otro municipio de Coahuila</option>
+                                        <option value="turista">Turista nacional / extranjero</option>
+                                        <option value="negocios">Visita por trabajo / Industria automotriz</option>
+                                    </select>
+                                </p>
+
+                                <p>
+                                    <b>¿Qué es lo que más te gusta de Saltillo?</b><br>
+                                    <input type="checkbox" id="pan" name="gustos" value="pan">
+                                    <label for="pan">El pan de pulque y su comida</label><br>
+
+                                    <input type="checkbox" id="museo" name="gustos" value="museo">
+                                    <label for="museo">El Museo del Desierto y los dinosaurios</label><br>
+
+                                    <input type="checkbox" id="clima" name="gustos" value="clima">
+                                    <label for="clima">Su clima fresco y la Sierra de Zapalinamé</label>
+                                </p>
+
+                                <p>
+                                    <label for="comentarios"><b>Envía tus saludos o comentarios:</b></label><br>
+                                    <textarea id="comentarios" name="comentarios" rows="4" cols="45" placeholder="¡Saludos desde Saltillo! Déjanos tus comentarios..."></textarea>
+                                </p>
+
+                                <p align="center">
+                                    <input type="submit" value="Enviar Registro" style="background-color:#A67B5B; color:white; font-weight:bold; padding:8px 15px; border:none; cursor:pointer;">
+                                    <input type="reset" value="Borrar todo" style="padding:8px 15px; cursor:pointer;">
+                                </p>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </font>
+    </main>
+
+    <br><br><br>
+
+    <!-- PIE DE PÁGINA -->
+    <footer align="center">
+        <hr size="4" color="#A67B5B" width="90%">
+        <font face="Verdana" size="2" color="#718096">
+            <p>Indra Jezabel Martinez Ortiz 5°J 0871</p>
+        </font>
+    </footer>
+
+</body>
+</html>
